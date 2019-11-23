@@ -1,0 +1,208 @@
+{
+    "year":2020,
+    "registration_variants": [
+        {
+            "text": "Full conference - Full registration: 360 € (fee + digital almanac + coffee breaks + accommodation + full board during the whole conference)",
+            "price": 360,
+            "full_registration": true
+        },
+        {
+            "text": "Full conference - Student registration: 305 € (fee + digital almanac + coffee breaks + accommodation + full board during the whole conference)",
+            "price": 305,
+            "full_registration": true
+            
+        },
+        {
+            "text": "Full conference - Student registration - student presenting paper: 235 € (fee + digital almanac + coffee breaks + accommodation + full board during the whole conference)",
+            "price": 235,
+            "full_registration": true
+        },
+        {
+            "text": "Computational Intelligence and Data Mining (4 days) - Full registration: 360 € (fee + digital almanac + coffee breaks + accommodation + full board for 2 nights)",
+            "price": 360,
+            "full_registration": false
+        },
+        {
+            "text": "Computational Intelligence and Data Mining (4 days) - Student registation: 305 € (fee + digital almanac + coffee breaks + accommodation + full board for 2 nights)",
+            "price": 305,
+            "full_registration": false
+        },
+        {
+            "text": "Computational Intelligence and Data Mining (4 days) - Student registation - student presenting paper: 235 € (fee + digital almanac + coffee breaks + accommodation + full board for 2 nights)",
+            "price": 235,
+            "full_registration": false
+        },
+        {
+            "text": "CZ-SK NLP workshop - Full registration 250€ (fee + digital almanac + coffee breaks + accommodation + full board for 2 nights)",
+            "price": 250,
+            "full_registration": false
+        },
+        {
+            "text": "CZ-SK NLP workshop - Student registration 200€ (fee + digital almanac + coffee breaks + accommodation + full board for 2 nights)",
+            "price": 200,
+            "full_registration": false
+        },
+        {
+            "text": "CZ-SK NLP workshop - Student registration - student presenting paper 130€ (fee + digital almanac + coffee breaks + accommodation + full board for 2 nights)",
+            "price": 130,
+            "full_registration": false
+        },
+        {
+            "text": "Intelligent speech and audio technologies workshop- Full registration: 250€ (fee + digital almanac + coffee breaks + banket + accommodation + full board for 2 nights)",
+            "price": 250,
+            "full_registration": false
+        },
+        {
+            "text": "Intelligent speech and audio technologies workshop - Student registration 200€ (fee + digital almanach + coffee breaks + banket + accommodation + full board for 2 nights)",
+            "price": 200,
+            "full_registration": false
+        },
+        {
+            "text": "Intelligent speech and audio technologies workshop - Student registration - student presenting paper 130€ (fee + digital almanach + coffee breaks + banket + accommodation + full board for 2 nights)",
+            "price": 130,
+            "full_registration": false
+        }
+    ],
+    "payment_methods": [
+        {
+            "text": "cash (upon registration)"
+        },
+        {
+            "text": "Bank transfer (bank account: 2628717743/1100 (Tatra banka, a.s. Hodžovo namestie 3, 811 06 Bratislava), IBAN SK50 1100 0000 0026 2871 7743, SWIFT: TATR SK BX (Slovenská spoločnosť pre umelú inteligenciu (SAIS), Letná 9, 040 00 Košice). Please, after the bank transfer, send us the confirmation of payment to peter.gursky@upjs.sk."
+        }
+    ],
+    "time_arrival": [
+        {
+            "text": "20. 9. (Friday) - start with dinner"
+        },
+        {
+            "text": "21. 9. (Saturday) - start with breakfast"
+        },
+        {
+            "text": "21. 9. (Saturday) - start with lunch"
+        },
+        {
+            "text": "21. 9. (Saturday) - start with dinner"
+        },
+        {
+            "text": "22. 9. (Sunday) - start with breakfast"
+        },
+        {
+            "text": "22. 9. (Sunday) - start with lunch"
+        },
+        {
+            "text": "22. 9. (Sunday) - start with dinner"
+        },
+        {
+            "text": "23. 9. (Monday) - start with breakfast"
+        },
+        {
+            "text": "23. 9. (Monday) - start with lunch"
+        },
+        {
+            "text": "23. 9. (Monday) - start with dinner"
+        }
+    ],
+    "time_departure": [
+        {
+            "text": "21. 9. (Saturday) - end with breakfast"
+        },
+        {
+            "text": "21. 9. (Saturday) - end with lunch"
+        },
+        {
+            "text": "21. 9. (Saturday) - end with dinner"
+        },
+        {
+            "text": "22. 9. (Sunday) - end with breakfast"
+        },
+        {
+            "text": "22. 9. (Sunday) - end with lunch"
+        },
+        {
+            "text": "22. 9. (Sunday) - end with dinner"
+        },
+        {
+            "text": "23. 9. (Monday) - end with breakfast"
+        },
+        {
+            "text": "23. 9. (Monday) - end with lunch"
+        },
+        {
+            "text": "23. 9. (Monday) - end with dinner"
+        },
+        {
+            "text": "24. 9. (Tuesday) - end with breakfast"
+        }
+    ],
+    "tshirt_size": [
+        {
+            "text": "S"
+        },
+        {
+            "text": "M"
+        },
+        {
+            "text": "L"
+        },
+        {
+            "text": "XL"
+        },
+        {
+            "text": "XXL"
+        }
+    ],
+    "extra_payments": [
+        {
+            "text": "single bed rooms +70 eur, only for full registration",
+            "price": 70,
+            "requires_full_registration": true
+        }
+    ],
+    "accomodation": [
+        {
+            "text": "yes, for 1 night [+50€] (lunch, dinner and breakfast for the next day)",
+            "price": 50
+        },
+        {
+            "text": "yes, for 2 nights [+45€/night]",
+            "price": 90
+        },
+        {
+            "text": "yes, for 3 nights [+45€/night]",
+            "price": 135
+        },
+        {
+            "text": "yes, for 4 nights [+195€] (during the whole conference)",
+            "price": 195
+        },
+        {
+            "text": "no",
+            "price": 0
+        }
+    ],
+    "banket": [
+        {
+            "text": "yes [+15€]",
+            "price": 15
+        },
+        {
+            "text": "no",
+            "price": 0
+        }
+    ],
+    "special_requests": [
+        {
+            "text": "no"
+        },
+        {
+            "text": "vegetarian diet"
+        },
+        {
+            "text": "vegan diet"
+        },
+        {
+            "text": "gluten-free diet"
+        }
+    ]
+}
