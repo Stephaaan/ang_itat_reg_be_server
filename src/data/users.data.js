@@ -9,11 +9,11 @@ const checkUserLogin = (username, password) => new Promise((resolve, reject) => 
                 .findOne({username})
                 .then(user => {
                     if(user === null){
-                        resolve(LoginState.USER_NOT_FOUND);
+                        resolve({loginState: LoginState.USER_NOT_FOUND});
                         return;
                     }
                     if(user.password !== password){
-                        resolve(LoginState.BAD_PASSWORD);
+                        resolve({loginState: LoginState.BAD_PASSWORD});
                         return;
                     }
                     const userid = user._id.toString();
