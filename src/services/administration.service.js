@@ -9,6 +9,12 @@ const getRegistrations = () => new Promise((resolve, reject) => {
             reject(err)
         });
 })
+const deleteRegistration = id => new Promise((resolve, reject) => {
+	Administration.deleteRegistration(id)
+	.then(() => resolve())
+	.catch(err => reject(err))
+})
 module.exports = {
     getRegistrations
+    deleteRegistration
 }

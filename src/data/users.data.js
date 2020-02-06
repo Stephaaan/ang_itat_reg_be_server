@@ -8,7 +8,9 @@ const checkUserLogin = (username, password) => new Promise((resolve, reject) => 
                 .collection(process.env.DB_USERS_COLLECTION)
                 .findOne({username})
                 .then(user => {
-                    if(user === null){
+                    console.log(process.env.DB_DATABASE, username, process.env.DB_USERS_COLLECTION)
+			console.log(user)
+		    if(user === null){
                         resolve({loginState: LoginState.USER_NOT_FOUND});
                         return;
                     }

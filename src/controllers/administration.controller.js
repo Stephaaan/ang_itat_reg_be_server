@@ -6,6 +6,12 @@ const getRegistrations = (req, res) => {
         .then(registrations => res.status(StatusCodes.OK).json(registrations))
         .catch(err => res.status(StatusCodes.INTERNAL_ERROR).send(err))
 }
+const deleteRegistration = (req, res) => {
+	Administrationervice.deleteRegistration(req.body.id)
+	.then(() => res.status(StatusCodes.OK).json({message: "OK"}))
+	.catch(err => res.status(StatusCodes.INTERNAL_ERROR).send(err))
+}
 module.exports = {
-    getRegistrations
+    getRegistrations,
+deleteRegistration
 }
