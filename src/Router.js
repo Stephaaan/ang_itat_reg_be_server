@@ -11,5 +11,5 @@ router.get("/config", ConfigController.getConfig);
 router.post("/register", RegisterController.register);
 router.post("/administration/login", UsersController.login)
 router.post("/administration/registrations", isAuthenticated, AdministrationController.getRegistrations)
-router.post("administration/delete", isAuthenticated, AdministrationController.deleteRegistration)
+router.post("/administration/delete", isAuthenticated, AdministrationController.deleteRegistration)
 module.exports = router;

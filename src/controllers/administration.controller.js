@@ -7,7 +7,7 @@ const getRegistrations = (req, res) => {
         .catch(err => res.status(StatusCodes.INTERNAL_ERROR).send(err))
 }
 const deleteRegistration = (req, res) => {
-	Administrationervice.deleteRegistration(req.body.id)
+	AdministrationService.deleteRegistration(req.body.idToDel)
 	.then(() => res.status(StatusCodes.OK).json({message: "OK"}))
 	.catch(err => res.status(StatusCodes.INTERNAL_ERROR).send(err))
 }

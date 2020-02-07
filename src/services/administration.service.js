@@ -15,6 +15,6 @@ const deleteRegistration = id => new Promise((resolve, reject) => {
 	.catch(err => reject(err))
 })
 module.exports = {
-    getRegistrations
+    getRegistrations,
     deleteRegistration
 }
